@@ -1,0 +1,164 @@
+@media (max-width: 600px) {
+    .site-header .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .partner-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* Responsive for hero nav */
+
+@media (max-width: 600px) {
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+
+/* Optional: shrink heading on small devices */
+
+@media (max-width: 600px) {
+    .welcome-section h1 {
+        font-size: 1.8rem;
+    }
+    .welcome-section .tagline {
+        font-size: 1rem;
+    }
+}
+
+
+/* About Section Responsive */
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-image img {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Responsive tweaks for facilities */
+
+@media (max-width: 600px) {
+    .facilities-section {
+        padding: 40px 15px;
+    }
+    .facilities-grid {
+        padding: 0;
+        gap: 1.5rem;
+    }
+    .facility-item {
+        padding: 1.5rem;
+    }
+    .facility-icon {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .facility-item h3 {
+        font-size: 1.3rem;
+    }
+    .facility-item p {
+        font-size: 0.95rem;
+    }
+}
+
+
+/* Responsive styles for Courses section */
+
+@media (max-width: 600px) {
+    .courses-section {
+        padding: 40px 15px;
+    }
+    .course-box {
+        padding-top: 2.5rem;
+    }
+    .course-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+        top: -20px;
+    }
+    .course-content h3 {
+        font-size: 1.3rem;
+    }
+    .view-all-button {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+    }
+}
+
+
+/* Responsive: Team Section */
+
+@media (max-width: 768px) {
+    .team-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-member {
+        width: 90%;
+        max-width: 350px;
+    }
+}
+
+
+/* Responsive Footer */
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .newsletter-form {
+        align-items: center;
+    }
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+        max-width: 100px;
+    }
+}
+
+
+/* Responsive Courses_Content*/
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.6rem;
+    }
+    .category-header {
+        font-size: 1.2rem;
+        padding: 16px;
+    }
+    .course-card h4 {
+        font-size: 1rem;
+    }
+    .course-card p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+/* Responsive for AuthNotice*/
+
+@media (max-width: 768px) {
+    .auth-box,
+    .notice-box {
+        flex: 1 1 100%;
+    }
+}

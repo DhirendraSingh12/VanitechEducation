@@ -1,0 +1,124 @@
+.footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px 30px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1 1 220px;
+    margin: 10px 15px;
+}
+
+.footer-section h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.legal-links,
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.legal-links li,
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.legal-links a,
+.vertical-links a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.legal-links a:hover,
+.vertical-links a:hover {
+    color: #ffffff;
+}
+
+.vertical-links .link-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.vertical-links .link-item i {
+    font-size: 6px;
+    margin-right: 8px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.newsletter-button {
+    padding: 8px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.social-links a {
+    margin-right: 10px;
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #fff;
+    color: #333;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 700px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.popup-close {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}

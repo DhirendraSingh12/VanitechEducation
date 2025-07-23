@@ -1,0 +1,72 @@
+/* Team Section Styles */
+
+.team-section {
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    background: #f8f9fa;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.member-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.member-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.member-info h3 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.member-info .role {
+    font-size: 1rem;
+    color: #3498db;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.member-info .description {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: #3498db;
+    margin: 0 8px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #2c3e50;
+}

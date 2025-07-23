@@ -1,0 +1,106 @@
+/* General Section */
+
+.all-courses {
+    padding: 3rem 1rem;
+    background-color: #f7f7f7;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+
+/* Category Box */
+
+.course-category-box {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+
+/* Header Toggle */
+
+.category-header {
+    background: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.toggle-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+
+/* Subcourses */
+
+.course-list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    background: #f9f9f9;
+}
+
+.course-card {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+
+.course-card h4 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.course-card p {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+
+/* Hidden class */
+
+.hidden {
+    display: none;
+}
+
+
+/* Icon Rotation when open */
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.register-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #2980b9;
+}

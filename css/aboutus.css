@@ -1,0 +1,105 @@
+.why-join-section {
+    background-color: #f2f6ff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.why-join-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.why-join-content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.about-section {
+    padding: 0rem 2rem;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.director-section {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.director-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.message-box {
+    flex: 1;
+}
+
+.message-box h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.message-box h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.message-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: 768px) {
+    .about-content,
+    .director-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-image,
+    .image-box {
+        width: 100%;
+    }
+    .message-box {
+        padding: 0 1rem;
+    }
+}
