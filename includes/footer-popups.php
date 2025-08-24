@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<!-- Refund Policy Popup -->
+<!-- Refund Policy Popup
 <div id="refund-popup" class="popup-overlay" style="display: none;">
     <div class="popup-content">
         <div class="popup-close" onclick="closePopup('refund')">&times;</div>
@@ -170,4 +170,4 @@
 
         </p>
     </div>
-</div>
+</div> -->

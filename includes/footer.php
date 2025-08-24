@@ -8,7 +8,8 @@
                 <li><a href="#" onclick="openPopup('terms')">Terms and Conditions</a></li>
                 <li><a href="#" onclick="openPopup('privacy')">Privacy Policy</a></li>
                 <li><a href="#" onclick="openPopup('disclaimer')">Disclaimer</a></li>
-                <li><a href="#" onclick="openPopup('refund')">Refund Policy</a></li>
+                <li><a href="includes/refund-policy.php" target="_blank" rel="noopener noreferrer">Refund Policy</a></li>
+
             </ul>
         </div>
 
@@ -34,7 +35,7 @@
             </ul>
         </div>
 
-        <!-- Newsletter -->
+        <!-- Newsletter
         <div class="footer-section">
             <h3>Newsletter</h3>
             <p>Subscribe to our newsletter for updates and special offers.</p>
@@ -49,13 +50,24 @@
                 <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="footer-bottom">
-        <div class="container">
-            <p>&copy; 2025 Vanitech. All rights reserved.</p>
-        </div>
-    </div>
+    <!-- Social Links -->
+<div class="footer-section">
+    <h3>Follow Us</h3>
+    <ul class="social-links-list">
+        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> YouTube</a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+    </ul>
+</div>
+
+
+    <!-- Copyright -->
+  <div class="footer-bottom">
+    <p>© 2025 Vanitech. All rights reserved.</p>
+  </div>
 
     <!-- Popups -->
     <?php include('footer-popups.php'); ?>

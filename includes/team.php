@@ -86,7 +86,7 @@
                     <img src="images/Abhiraj_Panda.png" alt="Abhiraj_Panda">
                 </div>
                 <div class="member-info">
-                    <h3>Dhirendra ku. Singh</h3>
+                    <h3>Dhirendra Kumar Singh</h3>
                     <p class="role">IT Developer</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-linkedin"></i></a>
