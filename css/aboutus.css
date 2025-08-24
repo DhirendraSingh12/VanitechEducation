@@ -37,13 +37,59 @@
 }
 
 .about-text h2 {
+    color: #2c3e50;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .about-text p {
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+
+/* Mission & Vision Section */
+
+.mission-vision-section {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+.mission-vision-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.mission-box,
+.vision-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-box:hover,
+.vision-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mission-box h2,
+.vision-box h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.mission-box p,
+.vision-box p {
+    line-height: 1.5;
+    font-size: 1rem;
+    text-align: justify;
 }
 
 .director-section {

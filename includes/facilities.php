@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-header">
             <h2>Our Facilities</h2>
-            <p>Computer institutes typically offer a range of facilities to support their student's learning and development. Some common facilities you might find in a computer institute include:</p>
+            <p>To aid in the learning and growth of our students, our institute provides a variety of facilities. In order to enhance academic success and personal development, each facility is made to be safe, motivating, and encouraging. The following are some typical facilities that our institute may offer:</p>
         </div>
         <div class="facilities-grid">
             <div class="facility-item">
@@ -14,7 +14,7 @@
             <div class="facility-item">
                 <div class="facility-icon"><i class="fas fa-building"></i></div>
                 <h3>Placement Support</h3>
-                <p>100% placement assistance</p>
+                <p>100% placement assistance and internship opportunity.</p>
             </div>
             <div class="facility-item">
                 <div class="facility-icon"><i class="fas fa-shield-alt"></i></div>
@@ -27,9 +27,9 @@
                 <p>Affordable education for all</p>
             </div>
             <div class="facility-item">
-                <div class="facility-icon"><i class="fas fa-laptop-code"></i></div>
-                <h3>Modern Labs</h3>
-                <p>State-of-the-art facilities</p>
+                <div class="facility-icon"><i class="fas fa-users"></i></div>
+                <h3>Qualified Faculty</h3>
+                <p>Committed to guiding students in both theoretical and practical aspects.</p>
             </div>
             <div class="facility-item">
                 <div class="facility-icon"><i class="fas fa-book"></i></div>

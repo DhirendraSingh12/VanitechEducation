@@ -7,9 +7,8 @@
         <div class="about-content">
             <h2>About Vanitech</h2>
             <p>
-                Vanitech Education is committed to bridging the gap between ambition and opportunity. 
-                We provide quality education, expert instructors, and a platform where students can thrive in their careers and academic pursuits.
-                Our mission is to empower learners with practical skills and knowledge for the future.
+                At Vanitech Education, we combine innovation with accessibility, ensuring that learners from all backgrounds can gain the knowledge and credentials needed to thrive in today’s competitive landscape.
+                Whether it is academic enrichment, professional development, or skills training, our curriculum is designed to equip learners with practical, future-ready competencies.
             </p>
             <a href="about.php" class="learn-more-btn">Learn More</a>
         </div>

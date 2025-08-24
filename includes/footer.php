@@ -27,8 +27,8 @@
         <div class="footer-section">
             <h3>Contact Us</h3>
             <ul class="contact-info">
-                <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Tech City, 123456</li>
-                <li><i class="fas fa-phone"></i> +91 9114302055</li>
+                <li><i class="fas fa-map-marker-alt"></i> Dinanath Lane, Daily Market, Plantsite Rourkela, Dist.-Sundargarh, Odisha-769001</li>
+                <li><i class="fas fa-phone"></i> +91 6370516212</li>
                 <li><i class="fas fa-envelope"></i> info@vanitecheducation.com</li>
                 <li><i class="fas fa-clock"></i> Mon - Sat: 9:00 AM - 7:00 PM</li>
             </ul>
@@ -45,7 +45,7 @@
             <div class="social-links">
                 <a href="#"><i class="fab fa-facebook"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </div>

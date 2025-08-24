@@ -1,11 +1,15 @@
-@media (max-width: 600px) {
-    .site-header .container {
-        flex-direction: column;
-        gap: 10px;
+/* Responsive styles header*/
+
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 1.2rem;
     }
     .partner-btn {
-        width: 100%;
-        text-align: center;
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    .logo-img {
+        height: 32px;
     }
 }
 
@@ -153,12 +157,15 @@
 }
 
 
-
-/* Responsive for AuthNotice*/
+/* Responsive adjustments for aboutus page mission and vision section*/
 
 @media (max-width: 768px) {
-    .auth-box,
-    .notice-box {
-        flex: 1 1 100%;
+    .mission-box h2,
+    .vision-box h2 {
+        font-size: 1.5rem;
+    }
+    .mission-box p,
+    .vision-box p {
+        font-size: 0.95rem;
     }
 }

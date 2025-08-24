@@ -19,6 +19,7 @@
 .section-header p {
     color: #666;
     font-size: 1rem;
+    text-align: justify;
 }
 
 .courses-grid {

@@ -1,13 +1,14 @@
-<!-- includes/header.php -->
 <header class="site-header">
-    <div class="container">
-        <div class="logo">
-            <a href="/">
-                <img src="images/logo.jpg" alt="Logo">
+    <div class="header-container">
+        <div class="logo-container">
+            <a href="index.php">
+                <img src="images/logo.jpg" alt="Vanitech Logo" class="logo-img">
+                <span class="site-title">Vanitech Education</span>
             </a>
         </div>
-        <div class="header-button">
-            <a href="#" class="partner-btn">Become a Partner</a>
+
+        <div class="partner-btn-container">
+            <a href="contact.php" class="partner-btn">Become a Partner</a>
         </div>
     </div>
 </header>
